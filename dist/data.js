@@ -1,5 +1,5 @@
 import { Serie } from "./series.js";
-export const series=[
+export const Series=[
     new Serie(1, "Breaking Bad", "Netflix", 5, "Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer", "https://www.netflix.com/co/title/70143836?source=35", "https://www.themoviedb.org/t/p/w1280/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg"),
     new Serie(2, "Orange Is the New Black", "Netflix", 6, "The series begins revolving around Piper Chapman, a woman in her thirties living in New York City who is sentenced to 15 months in Litchfield Penitentiary", "https://www.netflix.com/co/title/70242311", "https://www.themoviedb.org/t/p/w1280/ekaa7YjGPTkFLcPhwWXTnARuCEU.jpg"),
     new Serie(3, "Game of Thrones", "HBO", 7, "American fantasy drama", "https://www.hbo.com/game-of-thrones", "https://www.themoviedb.org/t/p/w1280/z9gCSwIObDOD2BEtmUwfasar3xs.jpg"),

@@ -1,4 +1,4 @@
-export class Serie{
+export class Series{
     constructor(id, nombre, canal, temporadas, descripcion, url, img){
         this.id=id;
         this.nombre=nombre;
