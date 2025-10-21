@@ -1,11 +1,11 @@
-import { series } from "./data.js";
+import { Series } from "./data.js";
 const tbody = document.getElementById("series-body");
 const avgContainer = document.getElementById("average-seasons");
 function renderTable() {
     tbody.innerHTML = "";
     let totalSeasons = 0;
 
-    series.forEach((serie) => {
+    series.forEach((Series) => {
         totalSeasons += serie.seasons;
         const tr = document.createElement("tr");
         tr.innerHTML = `
